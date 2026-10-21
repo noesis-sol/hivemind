@@ -1,5 +1,7 @@
 # Hivemind
 
+> **Renamed to Agmen and moved to [noesis-sol/agmen](https://github.com/noesis-sol/agmen).** This repository is archived.
+
 Hivemind works through a backlog of tickets with several coding agents side by side, each in its own git worktree, and merges each finished ticket, checked, into the branch the run started on. A long-lived engine runs on your machine or a server, headless; a desktop app (Electron) and a command line attach to it, locally or over SSH. Its agents are [Pi](https://github.com/earendil-works/pi) sessions, so any model Pi reaches will do.
 
 It is a port of [orchestra](https://github.com/noesis-sol/orchestra), which does the same with Claude Code in terminal tabs, to a desktop app with a remote, model-agnostic engine.
